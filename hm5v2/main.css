@@ -96,6 +96,7 @@
     }
    .block_B{
        height: 300px;
+       margin-bottom: 20px;
 
    }
    .fourblocks{
@@ -103,11 +104,28 @@
        display: flex;
    }
    .block_C, .block_D, .block_E{
-       height: 30px;
-       width: 30px;
+       height: 40px;
+       width: 40px;
+       margin-bottom: 20px;
+       border-radius: 10px;
+
+
 
    }
-    .border{
+    .elementsblock{
         flex-direction: column;
     }
+    .block_F{
+        height: 100px;
+        width: 490px;
+        margin-left: 30px;
+    }
+
+    .threeblocks{
+        display: flex;
+        justify-content: space-evenly;
+
+
+    }
+
 }
