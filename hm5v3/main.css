@@ -84,10 +84,13 @@
     }
     .sixBlocks{
        display: flex;
-       width: 628px;
+       /*width: 628px;*/
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        row-gap: 10px;
+        column-gap: 170px;
     }
 }
 
 /* як зробити так щоб B C D E F G розтягнулись повністю? */
+/*Зробив через геп но хз чи правильно*/
