@@ -1,6 +1,7 @@
 .border {
     border: 4px solid black;
     margin: 10px;
+    max-width: 1473px;
 
 
 }
@@ -24,56 +25,69 @@
 }
 
 .block_A {
-    max-width: 100%;
+    max-width: 1463px;
     height: 150px;
     margin: 5px;
 
 }
 
 
-
-.w397 {
-    width: 402px;
+.w393 {
+    width: 393px;
 }
 
 .h200 {
     height: 200px;
 }
 
-
-.block_B {
-    margin-right: 5px;
-    margin-bottom: 5px;
-}
-
-.block_C {
-    margin-right: 5px;
-    margin-bottom: 5px;
-}
-
-.block_D {
-    margin-bottom: 5px;
-
-}
-
-.block_E {
-    margin-bottom: 5px;
+.Mr {
     margin-right: 5px;
 }
 
-.block_F {
+.Mb {
     margin-bottom: 5px;
-    margin-right: 5px;
 }
 
-.block_G {
-    margin-bottom: 5px;
-
+.Ml {
+    margin-left: 4px;
 }
+
 
 .block_H {
-    height: 400px;
-    width: 530px;
-    margin-right: 5px;
+    height: 405px;
+    width: 535px;
 
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .block_A{
+       margin: 30px;
+        height: 100px;
+
+    }
+    .sevenBlocks{
+        display: flex;
+        flex-direction: column;
+    }
+    .block_B,.block_C,.block_D,.block_E,.block_F,.block_G{
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+
+    }
+
+    .block_H{
+        width: 93%;
+        height: 100px;
+        margin: 30px;
+    }
+    .sixBlocks{
+       display: flex;
+       width: 628px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+/* як зробити так щоб B C D E F G розтягнулись повністю? */
